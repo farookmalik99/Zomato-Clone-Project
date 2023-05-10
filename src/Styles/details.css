@@ -1,0 +1,200 @@
+.login {
+    background: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.acc {
+    color: #FFF;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.circle {
+    background: #fff;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.logo {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.detailsimg {
+    width: 100%;
+    height: 352px;
+    border-radius: 0;
+}
+
+.imgpart {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 412px;
+    left: 1140px;
+    width: 242px;
+    height: 48px;
+    opacity: .75;
+    border-radius: 3px;
+    background: white;
+    color: #192F60;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+
+.heading {
+    color: #192F60;
+    font-weight: 700;
+}
+
+.tablist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.resheadpart {
+    justify-content: space-between;
+}
+
+.rescontentpart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablist .tab {
+    font-size: 18px;
+    width: 8rem;
+    height: 25px;
+    text-align: center;
+    color: #192F60;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.react-tabs__tab {
+    border: none;
+}
+
+.react-tabs__tab--selected {
+    border-bottom: 3px solid #CE0505;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.tabline {
+    width: 85vw;
+    border: 2px solid #D2D9E6;
+    position: absolute;
+    top: 41rem;
+}
+
+.onlineorder {
+    font-size: 18px;
+    width: 210px;
+    height: 50px;
+    background: #CE0505;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    border: none;
+    transition: all ease-in-out;
+}
+
+.onlineorder:active {
+    transform: scale(.95);
+}
+
+.Phone {
+    color: #192F60;
+    font-size: 18px;
+}
+
+.number {
+    color: #F67082;
+    font-size: 18px;
+}
+
+.address {
+    color: #636F88;
+    font-size: 16px;
+}
+
+.about {
+    color: #192F60;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.head {
+    color: #192F60;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.value {
+    color: #192F60;
+    font-size: 16px;
+}
+
+.details {
+    margin-left: 2rem;
+}
+
+.bannerImg {
+    width: 50rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #707070;
+}
+
+.total {
+    justify-content: space-between;
+}
+
+.addbtn {
+    margin: 0 70px;
+    bottom: 8rem;
+    position: absolute;
+    background: white;
+    color: red;
+    box-shadow: 0px 3px 6px #17171729;
+}
+
+.qty {
+    padding: 0px 8px;
+    font-size: 20px;
+    color: red;
+    background: white;
+}
+
+.addnumber {
+    margin: 0 70px;
+    position: absolute;
+    bottom: 8rem;
+    background: white;
+}
+
+.addmin {
+    background: white;
+    border: none;
+    color: #fd2a2a;
+    font-size: 18px;
+}
+

@@ -1,0 +1,191 @@
+.login {
+    background: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.acc {
+    color: #FFF;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.circle {
+    background: #fff;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.logo {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.filterhead {
+    color: #192F60;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.filterhead1 {
+    color: #192F60;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filterhead2 {
+    color: #192F60;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.selloc {
+    background: transparent;
+    width: 208px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+}
+
+label {
+    color: #8C96AB;
+    font-size: 14px;
+}
+
+.filterbox {
+    width: 260px;
+    height: 730px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.filtercontainer {
+    flex-direction: column;
+}
+
+.cuisinesbox {
+    flex-direction: column;
+}
+
+.cuisineinput {
+    flex-direction: column;
+
+}
+
+.costfortwobox {
+    flex-direction: column;
+}
+
+.costfortwoinput {
+    flex-direction: column;
+
+}
+
+
+.input label {
+    margin-left: 8px;
+}
+
+
+/* ----------------------results----------------------- */
+
+.noresults {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 794px;
+    height: 300px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #192F60;
+}
+
+.results {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 794px;
+    height: 300px;
+}
+
+.resulthead {
+    color: #192F60;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resulthead2 {
+    color: #192F60;
+    font-weight: 600;
+}
+
+.resulttext {
+    color: #636F88;
+    font-weight: 500;
+}
+
+.resulttextblue {
+    color: #192F60;
+    font-weight: 600;
+}
+
+img {
+    width: 120px;
+    border-radius: 30px;
+}
+
+.imgcon {
+    padding-left: 4rem;
+}
+
+.content {
+    padding-left: 4rem;
+}
+
+.rt-box {
+    padding-left: 4rem;
+}
+
+.rlbox {
+    padding-left: 4rem;
+}
+
+
+/* -------------------pagination-------------- */
+
+
+
+
+.pagination .page-item {
+    border-radius: 7px;
+}
+
+.pagination .page-link {
+    border-radius: 7px;
+    color: #8C96AB;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pagination .page-link:hover {
+    border: 1px solid #8C96AB;
+    background-color: #8C96AB;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .results {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .results {
+        width: 600px;
+    }
+}
